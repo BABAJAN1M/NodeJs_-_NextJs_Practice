@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+⚙️ Node.js & Next.js Practice Repository
+This repository contains my hands-on practice and learning experiments with Node.js, Next.js, and related web technologies.
 
-## Getting Started
+📚 What’s Inside
+The repository is divided into multiple folders representing key focus areas:
+| Folder / File Group | Description                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------ |
+| `routing_next/`     | Experiments with dynamic routing, static file serving, and ES modules in Node.js     |
+| `advance_next/`     | Practicing advanced concepts in Next.js like App directory, layouts, and API routes  |
+| `new_next/`         | Setup with **TypeScript**, **Tailwind CSS**, and Next.js routing, forms, and styling |
+| `pages/api/`        | Backend API routes created using Next.js (e.g., `login.ts`, `example.ts`)            |
+| Standalone Files    | Basic servers (`server.js`, `sendingFile_server.js`), utility modules, HTML samples  |
 
-First, run the development server:
+🛠️ Technologies Used
+Node.js
+Next.js (v13+ App Router and Pages Router)
+TypeScript
+Tailwind CSS
+ES Modules & File System (fs)
+Express.js (custom server setups)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✅ Key Learning Areas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Dynamic Routing in Next.js ([...page].tsx)
+🔄 API Integration with Express & Next.js backend
+🧱 Layout and Styling: Tailwind CSS, CSS Modules, SCSS
+🌐 Static and dynamic page generation
+🧪 Working with file I/O in Node.js
+⚙️ Module import/export patterns (.mjs, require, import)
+📦 Configs: next.config.mjs, tsconfig.json, etc.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🚀 Purpose
+This repository serves as a sandbox for practicing modern full-stack JavaScript, and a growing reference for building scalable, modular applications using Node.js + Next.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📝 Note: This is a personal learning workspace. All examples are experimental.
